@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.hidden {
+	display: none;
+}
+
+#container {
+  width: 980px;
+  margin: 0 auto;
+  font-family: "Cambay" , "Nanum Gothic", sans-serif; 
+}
+
+#logoheader {
+ width: 280px;
+ padding-left: 350px;
+ padding-top: 20px;
+ padding-right: 350px;
+ padding-bottom: 20px;
+ background-color: #666;
+}
+
+
+#container h1 {
+	padding: 10px 10px 10px 10px;
+ font: "Cambay" ;
+ text-align: center;
+ font-weight: bold;
+ font-size: 48px;
+color:  #272626;
+}
+
+h2 {
+	padding: 10px 10px 10px 10px;
+ font: "Cambay" ;
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+color:  #272626;
+}
+
+h3 {
+	padding: 10px 10px 10px 10px;
+ font: "Cambay" ;
+ text-align: left;
+ font-weight: bold;
+ font-size: 30px;
+color:  #444141;
+}
+
+.paragraph p {
+	color: #777;
+	font-size: 16px;
+	font: "Nanum Gothic";
+	padding-bottom: 10px;
+}
+
+.paragraph p::first-letter {
+	color: #444;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.values p{
+	color: #777;
+	font-size: 16px;
+	font: "Nanum Gothic";
+	padding-bottom: 10px;
+}
+
+ul p {
+	text-align: center;
+	color: #777;
+	font-size: 16px;
+	font: "Nanum Gothic";
+	padding-bottom: 10px;
+}
+
+#statement h2 {
+ text-align: left;
+ padding-left: 0px;
+}
+
+#img-con {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#img-con img {
+	width: 300px;
+	height: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#hero	 {
+padding-bottom: 10px;
+width: 560px;
+padding-left: 210px;
+padding-right: 210px;
+}
